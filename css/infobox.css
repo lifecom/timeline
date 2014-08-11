@@ -1,0 +1,32 @@
+/* --------------------------------------------
+	ВСПЛЫВАЮЩИЕ ПОДСКАЗКИ
+-------------------------------------------- */
+
+.infobox                                { visibility: hidden; position: absolute; top: 0; left: 0; z-index: 9999999999; min-width: 50px; max-width: 300px; text-align: center; color: #fff; border-radius: 4px; line-height: 1.286; padding: 12px 10px; background-color: #4C5264; }
+div.dtb-overlay                         { margin-right: 90px }
+.infobox .tip-arrow                     { position: absolute; width: 0; height: 0; border-width: 6px; border-style: solid; border-color: #4C5264; }
+.infobox .tip-arrow.tip-arrow-top       { top: -12px; left: 15px; border-top-color: transparent !important; border-left-color: transparent !important; border-right-color: transparent !important; }
+.infobox .tip-arrow.tip-arrow-bottom    { bottom: -12px; left: 15px; border-bottom-color: transparent !important; border-left-color: transparent !important; border-right-color: transparent !important; }
+.infobox .tip-arrow.tip-arrow-right     { top: 50%; margin-top: -6px; right: -12px; border-bottom-color: transparent !important; border-top-color: transparent !important; border-right-color: transparent !important; }
+.infobox .tip-arrow.tip-arrow-left      { top: 50%; margin-top: -6px; left: -12px; border-bottom-color: transparent !important; border-top-color: transparent !important; border-left-color: transparent !important; }
+
+/* Default Tip */
+
+/* Yellow */
+.infobox.infobox-yellow                 { color: #fff; font-size: 12px; line-height: 16px; padding: 16px 13px; }
+.infobox.infobox-yellow  .tip-arrow.tip-arrow-right:after
+                                        { content: ""; top: 50%; margin-top: -6px; right: -4px; position: absolute; width: 0; height: 0; border-width: 6px; border-style: solid; border-color: #fff; border-bottom-color: transparent !important; border-top-color: transparent !important; border-right-color: transparent !important; }
+
+/* Topic */
+.infobox.infobox-topic                  { font-size: 11px; -webkit-box-shadow: 0 0 5px rgba(0,0,0,.3); box-shadow: 0 0 5px rgba(0,0,0,.3); border-radius: 5px; }
+.infobox.infobox-topic i                { margin-right: 5px }
+.infobox.infobox-topic .tip-arrow       { left: 50%; margin-left: -5px; }
+
+/* Help */
+.infobox.infobox-help                   { background: #2E2F31; color: #EAEAEB; width: 170px; border: 3px solid; border-radius: 10px; padding: 25px 30px; font-size: 12px; line-height: 18px; }
+.infobox.infobox-help a:hover           { opacity: 0.8 }
+.infobox.infobox-help .tip-arrow.tip-arrow-top
+                                        { top: -15px }
+.infobox.infobox-help .tip-arrow.tip-arrow-bottom
+                                        { bottom: -15px }
+.infobox.infobox-help .infobox-actions  { font-size: 11px }

@@ -1,0 +1,251 @@
+/* -------------------------------------------------------------------
+
+	ИКОНКИ 
+	
+	Иконки Glyphicons
+	http://glyphicons.com/
+
+	
+	Пример использования:
+	
+	<a href="#"><i class="icon icon-remove"></i> Remove</a>
+
+------------------------------------------------------------------- */
+
+[class^="icon-"],
+[class*=" icon-"]  { 
+	display: inline-block;
+	vertical-align: text-top;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	background: url(../images/icons.png) no-repeat;
+}
+
+.icon-white { background-image: url(../images/icons-white.png); }
+
+.icon-glass              { background-position: 0      0; }
+.icon-music              { background-position: -24px  0; }
+.icon-search             { background-position: -48px  0; }
+.icon-envelope           { background-position: -72px  0; }
+.icon-heart              { background-position: -96px  0; }
+.icon-star               { background-position: -120px 0; }
+.icon-star-empty         { background-position: -144px 0; }
+.icon-user               { background-position: -168px 0; }
+.icon-film               { background-position: -192px 0; }
+.icon-th-large           { background-position: -216px 0; }
+.icon-th                 { background-position: -240px 0; }
+.icon-th-list            { background-position: -264px 0; }
+.icon-ok                 { background-position: -288px 0; }
+.icon-remove             { background-position: -312px 0; }
+.icon-zoom-in            { background-position: -336px 0; }
+.icon-zoom-out           { background-position: -360px 0; }
+.icon-off                { background-position: -384px 0; }
+.icon-signal             { background-position: -408px 0; }
+.icon-cog                { background-position: -432px 0; }
+.icon-trash              { background-position: -456px 0; }
+
+.icon-home               { background-position: 0      -24px; }
+.icon-file               { background-position: -24px  -24px; }
+.icon-time               { background-position: -48px  -24px; }
+.icon-road               { background-position: -72px  -24px; }
+.icon-download-alt       { background-position: -96px  -24px; }
+.icon-download           { background-position: -120px -24px; }
+.icon-upload             { background-position: -144px -24px; }
+.icon-inbox              { background-position: -168px -24px; }
+.icon-play-circle        { background-position: -192px -24px; }
+.icon-repeat             { background-position: -216px -24px; }
+.icon-refresh            { background-position: -240px -24px; }
+.icon-list-alt           { background-position: -264px -24px; }
+.icon-lock               { background-position: -287px -24px; }
+.icon-flag               { background-position: -312px -24px; }
+.icon-headphones         { background-position: -336px -24px; }
+.icon-volume-off         { background-position: -360px -24px; }
+.icon-volume-down        { background-position: -384px -24px; }
+.icon-volume-up          { background-position: -408px -24px; }
+.icon-qrcode             { background-position: -432px -24px; }
+.icon-barcode            { background-position: -456px -24px; }
+
+.icon-tag                { background-position: 0      -48px; }
+.icon-tags               { background-position: -25px  -48px; }
+.icon-book               { background-position: -48px  -48px; }
+.icon-bookmark           { background-position: -72px  -48px; }
+.icon-print              { background-position: -96px  -48px; }
+.icon-camera             { background-position: -120px -48px; }
+.icon-font               { background-position: -144px -48px; }
+.icon-bold               { background-position: -167px -48px; }
+.icon-italic             { background-position: -192px -48px; }
+.icon-text-height        { background-position: -216px -48px; }
+.icon-text-width         { background-position: -240px -48px; }
+.icon-align-left         { background-position: -264px -48px; }
+.icon-align-center       { background-position: -288px -48px; }
+.icon-align-right        { background-position: -312px -48px; }
+.icon-align-justify      { background-position: -336px -48px; }
+.icon-list               { background-position: -360px -48px; }
+.icon-indent-left        { background-position: -384px -48px; }
+.icon-indent-right       { background-position: -408px -48px; }
+.icon-facetime-video     { background-position: -432px -48px; }
+.icon-picture            { background-position: -456px -48px; }
+
+.icon-pencil             { background-position: 0      -72px; }
+.icon-map-marker         { background-position: -24px  -72px; }
+.icon-adjust             { background-position: -48px  -72px; }
+.icon-tint               { background-position: -72px  -72px; }
+.icon-edit               { background-position: -96px  -72px; }
+.icon-share              { background-position: -120px -72px; }
+.icon-check              { background-position: -144px -72px; }
+.icon-move               { background-position: -168px -72px; }
+.icon-step-backward      { background-position: -192px -72px; }
+.icon-fast-backward      { background-position: -216px -72px; }
+.icon-backward           { background-position: -240px -72px; }
+.icon-play               { background-position: -264px -72px; }
+.icon-pause              { background-position: -288px -72px; }
+.icon-stop               { background-position: -312px -72px; }
+.icon-forward            { background-position: -336px -72px; }
+.icon-fast-forward       { background-position: -360px -72px; }
+.icon-step-forward       { background-position: -384px -72px; }
+.icon-eject              { background-position: -408px -72px; }
+.icon-chevron-left       { background-position: -432px -72px; }
+.icon-chevron-right      { background-position: -456px -72px; }
+
+.icon-plus-sign          { background-position: 0      -96px; }
+.icon-minus-sign         { background-position: -24px  -96px; }
+.icon-remove-sign        { background-position: -48px  -96px; }
+.icon-ok-sign            { background-position: -72px  -96px; }
+.icon-question-sign      { background-position: -96px  -96px; }
+.icon-info-sign          { background-position: -120px -96px; }
+.icon-screenshot         { background-position: -144px -96px; }
+.icon-remove-circle      { background-position: -168px -96px; }
+.icon-ok-circle          { background-position: -192px -96px; }
+.icon-ban-circle         { background-position: -216px -96px; }
+.icon-arrow-left         { background-position: -240px -96px; }
+.icon-arrow-right        { background-position: -264px -96px; }
+.icon-arrow-up           { background-position: -289px -96px; }
+.icon-arrow-down         { background-position: -312px -96px; }
+.icon-share-alt          { background-position: -336px -96px; }
+.icon-resize-full        { background-position: -360px -96px; }
+.icon-resize-small       { background-position: -384px -96px; }
+.icon-plus               { background-position: -408px -96px; }
+.icon-minus              { background-position: -433px -96px; }
+.icon-asterisk           { background-position: -456px -96px; }
+
+.icon-exclamation-sign   { background-position: 0      -120px; }
+.icon-gift               { background-position: -24px  -120px; }
+.icon-leaf               { background-position: -48px  -120px; }
+.icon-fire               { background-position: -72px  -120px; }
+.icon-eye-open           { background-position: -96px  -120px; }
+.icon-eye-close          { background-position: -120px -120px; }
+.icon-warning-sign       { background-position: -144px -120px; }
+.icon-plane              { background-position: -168px -120px; }
+.icon-calendar           { background-position: -192px -120px; }
+.icon-random             { background-position: -216px -120px; }
+.icon-comment            { background-position: -240px -120px; }
+.icon-magnet             { background-position: -264px -120px; }
+.icon-chevron-up         { background-position: -288px -120px; }
+.icon-chevron-down       { background-position: -313px -119px; }
+.icon-retweet            { background-position: -336px -120px; }
+.icon-shopping-cart      { background-position: -360px -120px; }
+.icon-folder-close       { background-position: -384px -120px; }
+.icon-folder-open        { background-position: -408px -120px; }
+.icon-resize-vertical    { background-position: -432px -119px; }
+.icon-resize-horizontal  { background-position: -456px -118px; }
+
+
+/* --------------------------------------------
+    FONTELLO
+-------------------------------------------- */
+
+.fontello,
+[class^="icon-synio-"],
+[class*=" icon-synio-"]                 { background: none!important; width: auto; height: auto; line-height: normal; vertical-align: inherit; text-decoration: none; }
+.comments.comment-list .comment-path .comment-path-comments:before,
+.comment .comment-info li.vote.vote-expired .vote-count:before,
+.vote-topic.vote-nobuttons .vote-count span:before,
+.vote-item.vote-count i:before,
+.vote-down i:before,
+.comment-info .vote-down:before,
+.vote-up i:before,
+.comment-info .vote-up:before,
+.icon-ok-green:before,
+.icon-question-sign:before,
+.user:before,
+.ls-user:before,
+.toolbar .toolbar-update .update-comments i:before,
+.block .block-update:before,
+.block .block-header h3 a:before,
+#notifier .n-box p:before,
+.topic .poll .poll-total .poll-sort:before,
+.topic .topic-share .close:before,
+.modal .close:before,
+.search-input-wrapper .input-submit:before,
+.favourite:before,
+.blog-list-info:before,
+[class^="icon-synio-"]:before,
+[class*=" icon-synio-"]:before,
+.topic .topic-footer .topic-info li.topic-info-author a:first-child:before,
+.topic .topic-footer .topic-info li.topic-info-date time:before,
+.comment .comment-info li.comment-author a:before,
+.comment .comment-info li.comment-date:before          { display: inline-block; font-family: "Ionicons"; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; text-rendering: auto; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: "\f20d"; text-decoration: none; }
+.comment-info .vote-down:before,
+.vote-down i:before                     { content: "\f250" }
+.icon-synio-close:before                { content: "\f129" }
+.icon-synio-arrows:before               { content: "\f103" }
+.comment-info .vote-up:before,
+.vote-up i:before                       { content: "\f251" }
+.vote-item.vote-count i:before          { content: "\f143" }
+.vote-topic.vote-nobuttons .vote-count span:before
+                                        { content: "\f2b5" }
+.comment .comment-info li.vote.vote-expired .vote-count:before
+                                        { content: "\f2b5"; padding-right: 5px; }
+.icon-synio-topic-private:before        { content: "\f1a8" }
+.icon-synio-actions-edit:before         { content: "\f2bf" }
+.icon-synio-actions-delete:before       { content: "\f252" }
+.icon-synio-send-message:before         { content: "\f2eb" }
+.icon-synio-topic-link:before           { content: "\f1fe" }
+.icon-synio-vote-info-up:before         { content: "\f251" }
+.icon-synio-vote-info-down:before       { content: "\f250" }
+.icon-synio-vote-info-zero:before       { content: "\f2e3" }
+.icon-question-sign:before              { content: "\f27c" }
+.icon-ok-green:before                   { content: "\f2d5"; color: #18BB9E; }
+.icon-synio-link:before                 { content: "\f1fe"; font-size: 130%; }
+.icon-synio-topic-draft:before          { content: "\f12e" }
+.icon-synio-join:before                 { content: "\f197" }
+.user:before,
+.ls-user:before                         { content: "\f2d8"; display: inline-block; margin-right: 2px; position: relative; font-size: 10px; }
+.icon-synio-remove:before               { content: "\f253"; font-size: 120%; margin: 0 5px; }
+.icon-synio-arrow-left:before           { content: "\f21e"; font-size: 130%; position: relative; right: -3px; color: rgba(13, 46, 71, 0.4); }
+.icon-synio-arrow-right:before          { content: "\f13a"; font-size: 130%; position: relative; right: -3px; color: rgba(13, 46, 71, 0.4); }
+.icon-synio-comments-green:before       { content: "\f11b"; color: #38B789; }
+.icon-synio-comments-green-filled:before
+                                        { content: "\f11b"; color: #F1C40F; }
+.icon-synio-comments-blue:before        { content: "\f11b" }
+.icon-synio-comments-small:before       { content: "\f11c"; font-size: 13px; }
+.comments.comment-list .comment-path .comment-path-comments:before
+                                        { content: "\f11c"; margin-right: 4px; top: 1px; position: relative; }
+#notifier .n-box p:before               { content: "\f100"; font-size: 30px; position: absolute; left: 12px; top: 50%; margin-top: -15px; }
+.blog-list-info:before                  { content: "\f160"; color: #5A6075; opacity: 1; font-size: 16px; float: left; text-decoration: none; position: relative; top: 4px; }
+.icon-synio-share-blue:before           { content: "\f243"; font-size: 12px; }
+.favourite:before                       { content: "\f2fc"; font-size: 12px; }
+.favourite                              { text-decoration: none }
+.icon-ok-green,
+.icon-question-sign                     { background: transparent; font-size: 14px; color: #858592; margin-top: 5px; margin-left: 3px; }
+.icon-synio-search:before               { content: '\e83d'; color: #fff; font-size: 14px; }
+.icon-synio-search                      { border-bottom: 2px solid #FFF; width: 100px; }
+.search-input-wrapper .input-submit:before
+                                        { content: "\f21f"; font-size: 120%; }
+.topic .topic-share .close:before       { content: '\e836' }
+.modal .close:before                    { content: "\f2d7"; color: #fff; text-decoration: none; font-size: 22px; border-radius: 50%; padding: 3px; opacity: 1; position: absolute; right: -30px; top: -30px; opacity: 0.7; -webkit-transition: 0.5s cubic-bezier(.27,1.64,.32,.95); -moz-transition: 0.5s cubic-bezier(.27,1.64,.32,.95); -ms-transition: 0.5s cubic-bezier(.27,1.64,.32,.95); -o-transition: 0.5s cubic-bezier(.27,1.64,.32,.95); transition: 0.5s cubic-bezier(.27,1.64,.32,.95); }
+.topic .topic-footer .topic-info li.topic-info-author a:first-child:before
+                                        { content: "\f213"; margin-right: 1px; font-size: 115%; top: 1px; position: relative; }
+.topic .topic-footer .topic-info li.topic-info-date time:before
+                                        { width: 13px; font-size: 14px; content: "\f2d6"; margin-right: 3px; top: 1px; position: relative; }
+.comment .comment-info li.comment-author a:before
+                                        { content: "\f213"; margin-right: 5px; font-size: 115%; top: 1px; position: relative; }
+.comment .comment-info li.comment-date:before
+                                        { width: 13px; font-size: 14px; content: "\f26e"; margin-right: 3px; top: 1px; position: relative; }
+.modal .close:hover:before              { opacity: 1; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); transform: rotate(90deg); }
+.toolbar .toolbar-update .update-comments i:before,
+.block .block-update:before             { content: "\f201"; font-size: 15px; color: #656B7C; }
+.block .block-header h3 a:before        { content: "\f154"; color: #656B7C; border-left: none; right: 16px; top: 50%; margin-top: -6px; position: absolute; }
+.toolbar .toolbar-update .update-comments i:before
+                                        { font-size: 18px }
